@@ -19,4 +19,20 @@ func arrayPractise() {
 	fmt.Println(reflect.TypeOf(c))
 	fmt.Println(a)
 	fmt.Println(b)
+	arr1 := [3]string{"dds", "dsa", "答"}
+	var arr2 [6]string // 初始化数组会用空值来填充
+	fmt.Println(len(arr1))
+	fmt.Println(arr2)
+
+	// 编译器根据初始值的个数自行推断数组的长度
+	arr3 := []int{1, 2, 3, 4, 5}
+	fmt.Println(arr3)
+	fmt.Println(len(arr3))
+	for i := 0; i < len(arr3); i++ {
+		fmt.Println(arr3[i])
+	}
+	for index, value := range arr3 {
+		fmt.Println(index, value)
+	}
+
 }

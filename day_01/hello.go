@@ -58,7 +58,9 @@ func main() { // 函数
 	// sss()
 	// startMath()
 	// process()
-	arrayPractise()
+	// arrayPractise()
+	// slicePractise()
+	mapPractise()
 	// 在函数内部，可以使用更简略的 := 方式声明并初始化变量
 	b := "dsadasd"
 	fmt.Println("hello,go")
